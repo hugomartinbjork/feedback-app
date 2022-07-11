@@ -32,6 +32,7 @@ const handleSubmit = (e) => {
       }
       handleAdd(newFeedback)
       setText('')
+      setBtnDisabled(true)
    }
    
 }
